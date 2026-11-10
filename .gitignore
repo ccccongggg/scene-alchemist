@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node
+node_modules/
+
+# 构建产物（部署用 backend/site 已包含一份副本）
+frontend/dist/
+
+# 本地数据与日志
+backend/.server.log
+*.log
+
+# 环境变量（含密钥时勿提交）
+.env
+
+# 编辑器
+.vscode/
+.idea/
+
+# 移动端适配验证截图（临时产物）
+_shots/
+
+# 部署副本（由 frontend 构建生成，非源码）
+backend/site/
+
+# 验证 / 临时产物（真机截图、agent-browser 快照等）
+snap*.txt
+starmap_*.png
+verify_starmap_create.png
+_createmode_form.png
